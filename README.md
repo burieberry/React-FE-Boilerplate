@@ -2,5 +2,5 @@
 
 ## Dev instructions:
 
-`npm install`
-`npm start:dev`
+- `npm install`
+- `npm start:dev`
