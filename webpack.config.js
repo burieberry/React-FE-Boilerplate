@@ -1,8 +1,10 @@
+const path = require('path');
+
 module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
@@ -10,13 +12,9 @@ module.exports = {
       }, {
         test: /\.css$/,
         use: [
-          { loader: 'style-loader' },
-          {
-            loader: 'css-loader',
-            options: {
-              modules: true
-            }
-          }
+          'style-loader',
+          { loader: 'css-loader', options: { modules: true, importLoaders: 1 }},
+          'sass-loader'
         ]
       }
     ]

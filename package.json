@@ -1,7 +1,7 @@
 {
-  "name": "React-Boilerplate",
+  "name": "React-FE-Boilerplate",
   "version": "1.0.0",
-  "description": "General boilerplate with React and Bootstrap",
+  "description": "General front-end React boilerplate with Bootstrap",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
@@ -38,7 +38,9 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.10",
     "morgan": "^1.9.0",
+    "node-sass": "^4.7.2",
     "nodemon": "^1.15.1",
+    "sass-loader": "^6.0.6",
     "style-loader": "^0.20.2",
     "webpack": "^4.0.0",
     "webpack-cli": "^2.0.9"
